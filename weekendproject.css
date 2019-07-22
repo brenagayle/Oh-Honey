@@ -58,18 +58,22 @@
     flex-basis: 25%;
 }
 .third{
-    flex-basis: calc(100% / 3 - 20px);
+    flex-basis: calc(100% / 3*2);
 }
 
-body{
-    margin:0px;
-}
 
-.main{
+
+.main-shop{
     
         width: 100px;
-        margin-right: 5px
+        margin-right: 5px;
+        display:flex;
+       background-color:#020659;
+       color:#fcfbde;
+       flex-wrap: wrap;
+       
 }
+
 .aside{
     width:100px;
 
@@ -79,4 +83,10 @@ body{
     background-color: #4C9AD9;
     color: #fcfbde;
     font-family: 'Dancing Script', cursive;
+}
+.form{
+    width: 100%;
+    height:auto;
+    border: 3px 3 px #020659;
+    border-style: dotted;
 }
