@@ -5,7 +5,7 @@
 /*Header*/
 .top-banner{
     width:100%;
-    height:1000px;
+    height:100px;
 }
 .top-heading{
     margin: 0px;
@@ -21,23 +21,20 @@
 .logo{
     height:100px;
 }
-
 /*Nav Bar*/
 
 .active-link{
     background-color: #D9CB0D;
-  
-  }
-
+}
   .nav-link{
     width: 25%;
-    color: #D9CB0D;
+    color: #020659;
     text-decoration: none;
   }
   
   .nav-link:not(.active-link):hover{
     background-color: #020659;
-   
+   color:#D9CB0D !important;
   }
 
   nav{
@@ -53,4 +50,33 @@
 
 .right {
     float:right;
+}
+
+/*Width*/
+
+.quarter {
+    flex-basis: 25%;
+}
+.third{
+    flex-basis: calc(100% / 3 - 20px);
+}
+
+body{
+    margin:0px;
+}
+
+.main{
+    
+        width: 100px;
+        margin-right: 5px
+}
+.aside{
+    width:100px;
+
+}
+.content{
+    border: 1px solid black;
+    background-color: #4C9AD9;
+    color: #fcfbde;
+    font-family: 'Dancing Script', cursive;
 }
