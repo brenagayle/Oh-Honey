@@ -1,92 +1,36 @@
-*{
-    background-color:#fcfbde;
-    color:#020659;
-}
-/*Header*/
-.top-banner{
-    width:100%;
-    height:100px;
-}
-.top-heading{
-    margin: 0px;
-    padding-right: 50px;
-    height: 100px;
-    line-height: 50px;
-    color: #D9CB0D;
-    font-family: 'Indie Flower', cursive;
-    text-shadow: 2px 2px #020659;
-    font-size: 50px;
-    }
 
-.logo{
-    height:100px;
+main, header, div, footer {
+    margin: 0;
+    color: #050050;
 }
-/*Nav Bar*/
 
-.active-link{
-    background-color: #D9CB0D;
+body{
+    background:#F2FFC9;
 }
-  .nav-link{
-    width: 25%;
-    color: #020659;
-    text-decoration: none;
-  }
-  
-  .nav-link:not(.active-link):hover{
-    background-color: #020659;
-   color:#D9CB0D !important;
-  }
+.header {
+    background: #03a9f4;
+}
 
-  nav{
-    margin-top: 2px;
+.navBar {
+    background: #d22b1f;
+}
+
+.form {
+    background: #129a22;
     width: 100%;
-  }
-
-/*Floats*/
-
-.left {
-    float:left;
-}
-
-.right {
-    float:right;
-}
-
-/*Width*/
-
-.quarter {
-    flex-basis: 25%;
-}
-.third{
-    flex-basis: calc(100% / 3*2);
-}
-
-
-
-.main-shop{
-    
-        width: 100px;
-        margin-right: 5px;
-        display:flex;
-       background-color:#020659;
-       color:#fcfbde;
-       flex-wrap: wrap;
-       
-}
-
-.aside{
-    width:100px;
-
-}
-.content{
+    height: auto; 
     border: 1px solid black;
-    background-color: #4C9AD9;
-    color: #fcfbde;
-    font-family: 'Dancing Script', cursive;
 }
-.form{
-    width: 100%;
-    height:auto;
-    border: 3px 3 px #020659;
-    border-style: dotted;
+
+
+.footer {
+  
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #03a9f4;
+        text-align: center;
+        text-decoration: none;
+
 }
